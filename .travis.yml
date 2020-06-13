@@ -12,5 +12,6 @@ script:
   - export CROSS_COMPILE=/usr/bin/aarch64-linux-gnu-
   - export LOCALVERSION=-tegra
   - echo $LOCALVERSION
+  - cd sources/kernel/kernel-4.9
   - make ARCH=arm64 O=$TEGRA_KERNEL_OUT tegra_defconfig
   - make ARCH=arm64 O=$TEGRA_KERNEL_OUT -j4
