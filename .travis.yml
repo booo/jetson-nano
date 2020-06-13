@@ -1,5 +1,7 @@
 language: c
 dist: bionic
+arch:
+  - arm64
 install:
     - sudo apt install gcc-8-aarch64-linux-gnu-base
     - which aarch64-linux-gnu-cpp
