@@ -10,5 +10,6 @@ script:
   - ./source_sync.sh -t tegra-l4t-r32.3.1
   - export CROSS_COMPILE=/usr/bin/aarch64-linux-gnu-
   - export LOCALVERSION=-tegra
+  - echo $LOCALVERSION
   - make ARCH=arm64 O=$TEGRA_KERNEL_OUT tegra_defconfig
   - make ARCH=arm64 O=$TEGRA_KERNEL_OUT -j4
