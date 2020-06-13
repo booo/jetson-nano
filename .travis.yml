@@ -1,7 +1,7 @@
 language: c
 install:
     - sudo apt install cpp-5-aarch64-linux-gnu
-    - which which aarch64-linux-gnu-cpp
+    - which aarch64-linux-gnu-cpp
     - cd /tmp
     - wget https://developer.download.nvidia.com/embedded/L4T/r32_Release_v1.0/jetson-nano/BSP/Jetson-Nano-Tegra210_Linux_R32.1.0_aarch64.tbz2
     - tar -xvjf Jetson-Nano-Tegra210_Linux_R32.1.0_aarch64.tbz2
