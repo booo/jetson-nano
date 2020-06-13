@@ -12,7 +12,7 @@ script:
   - echo Hello World
   - cd /tmp/Linux_for_Tegra
   - ./source_sync.sh -t tegra-l4t-r32.3.1
-  - export CROSS_COMPILE=/usr/bin/aarch64-linux-gnu-gcc-7
+  - export CROSS_COMPILE=/usr/bin/aarch64-linux-gnu-
   - export LOCALVERSION=-tegra
   - echo $LOCALVERSION
   - cd sources/kernel/kernel-4.9
