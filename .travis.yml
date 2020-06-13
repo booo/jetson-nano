@@ -17,4 +17,4 @@ script:
   - echo $LOCALVERSION
   - cd sources/kernel/kernel-4.9
   - make ARCH=arm64 O=/tmp tegra_defconfig
-  - make ARCH=arm64 O=/tmp -j4
+  - make ARCH=arm64 O=/tmp -j$(nproc --all)
