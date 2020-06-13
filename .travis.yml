@@ -6,3 +6,5 @@ install:
     - ls /tmp
 script:
   - echo Hello World
+  - cd /tmp/Linux_for_Tegra
+  - ./source_sync.sh -h
