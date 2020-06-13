@@ -3,6 +3,7 @@ dist: bionic
 arch:
   - arm64
 install:
+    - apt search aarch64
     - sudo apt install gcc-8-aarch64-linux-gnu
     - which aarch64-linux-gnu-cpp
     - cd /tmp
