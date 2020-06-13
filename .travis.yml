@@ -1,4 +1,5 @@
 language: c
+dist: bionic
 install:
     - sudo apt install cpp-5-aarch64-linux-gnu
     - which aarch64-linux-gnu-cpp
