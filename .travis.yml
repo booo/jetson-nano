@@ -7,4 +7,4 @@ install:
 script:
   - echo Hello World
   - cd /tmp/Linux_for_Tegra
-  - ./source_sync.sh -h
+  - ./source_sync.sh -t tegra-l4t-r32.3.1
