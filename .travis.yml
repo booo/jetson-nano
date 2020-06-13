@@ -3,5 +3,6 @@ install:
     - cd /tmp
     - wget https://developer.download.nvidia.com/embedded/L4T/r32_Release_v1.0/jetson-nano/BSP/Jetson-Nano-Tegra210_Linux_R32.1.0_aarch64.tbz2
     - tar -xvjf Jetson-Nano-Tegra210_Linux_R32.1.0_aarch64.tbz2
+    - ls /tmp
 script:
   - echo Hello World
