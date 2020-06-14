@@ -18,3 +18,8 @@ script:
   - cd sources/kernel/kernel-4.9
   - make ARCH=arm64 O=/tmp tegra_defconfig
   - make ARCH=arm64 O=/tmp -j$(nproc --all)
+  - make ARCH=arm64 O=/tmp modules_install
+  - ls /tmp/*
+  - ls /tmp/arch/arm64/boot/Image*
+  - ls /tmp/arch/arm64/boot/dts/*
+  - ls /tmp/modules/*
